@@ -11,6 +11,7 @@ public class Lab_03 {
 		String num = a % 2 == 0 ? "Even" : "Odd"; 
 		
 		System.out.println("The number is " + num );
+		input.close();
 		
 	}
 

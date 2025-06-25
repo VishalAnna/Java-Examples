@@ -15,6 +15,7 @@ public class Lab_04 {
 		String Result = Score >= 50 ? "pass" : "fail";
 		
 		System.out.println("Result is  : " + Result);
+		input.close();
 	}
 
 }

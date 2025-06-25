@@ -14,6 +14,8 @@ public class Lab_05 {
 		String num = a > 0 ? "Positive" : a < 0 ? "Negative" : "Zero"; 
 		
 		System.out.println("number is  : "+ num);
+		
+		input.close();
 	}
 
 }
